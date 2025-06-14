@@ -1,0 +1,72 @@
+---
+import technologies from "../data/technologies.json";
+---
+
+<section class="technologies">
+  <h2 class="technologies__title">Technologies I work with</h2>
+  <h3 class="technologies__subtitle">
+    I'm proficient in a wide range of technologies, from front-end development
+    to back-end and database management.
+  </h3>
+
+  {
+    technologies.map((technology) => (
+      <div class="technologies__category">
+        <h2 class="technologies__category-title">{technology.title}</h2>
+        <ul class="technologies__category-list">
+          {technology.techs.map((tech) => (
+            <li class="technologies__category-item">
+              <img
+                src={tech.icon}
+                class="technologies__category-icon"
+                alt={tech.name}
+                loading="lazy"
+              />
+              <span>{tech.name}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))
+  }
+</section>
+
+<style>
+  .technologies {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    font-family: "Segoe UI", sans-serif;
+  }
+
+  .technologies__title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .technologies__subtitle {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 2rem;
+  }
+
+  .technologies__category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .technologies__category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+  }
+
+  .technologies__category-icon {
+    width: 100px;
+  }
+</style>

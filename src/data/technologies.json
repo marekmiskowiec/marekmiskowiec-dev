@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Frontend",
+    "techs": [
+      { "name": "HTML5", "icon": "/icons/html5.svg" },
+      { "name": "CSS", "icon": "/icons/css3.svg" },
+      { "name": "SASS", "icon": "/icons/sass.svg" },
+      { "name": "JavaScript", "icon": "/icons/javascript.svg" },
+      { "name": "TypeScript", "icon": "/icons/typescript.svg" },
+      { "name": "React", "icon": "/icons/react.svg" },
+      { "name": "Astro", "icon": "/icons/astro.svg" }
+    ]
+  },
+  {
+    "title": "Backend",
+    "techs": [
+      { "name": "Python", "icon": "/icons/python.svg" },
+      { "name": "Django", "icon": "/icons/django.svg" },
+      { "name": "DRF", "icon": "/icons/drf.svg" }
+    ]
+  }
+]
