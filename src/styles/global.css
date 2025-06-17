@@ -6,13 +6,26 @@
   margin: 0;
 }
 
-.page-title {
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 60px;
+}
+
+body {
+  /* font-family: "Roboto", sans-serif; */
+  background-color: rgb(240, 235, 235);
+}
+
+.section-title {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 2rem;
+  text-decoration: underline rgb(11, 151, 198);
+  text-underline-offset: 12px;
+  text-decoration-thickness: 8px;
 }
 
-.page-subtitle {
+.section-subtitle {
   font-size: 1rem;
   color: #444;
   margin-bottom: 2rem;
@@ -24,3 +37,8 @@
   padding: 2rem 1rem;
   font-family: "Segoe UI", sans-serif;
 }
+
+/* --clr-primary: rgba(0, 0, 0, 0.966);
+    --clr-font: white;
+    --clr-accent: rgb(255, 196, 0);
+    "Roboto", sans-serif  */

@@ -2,9 +2,9 @@
 import technologies from "../data/technologies.json";
 ---
 
-<section class="technologies container">
-  <h2 class="page-title">Technologies I work with</h2>
-  <h3 class="page-subtitle">
+<section class="technologies container" id="skills">
+  <h2 class="section-title">My skills</h2>
+  <h3 class="section-subtitle">
     I'm proficient in a wide range of technologies, from front-end development
     to back-end and database management.
   </h3>
@@ -32,6 +32,15 @@ import technologies from "../data/technologies.json";
 </section>
 
 <style>
+  .technologies {
+    text-align: center;
+  }
+
+  .technologies__category {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   .technologies__category-list {
     display: flex;
     flex-wrap: wrap;
@@ -40,11 +49,16 @@ import technologies from "../data/technologies.json";
     list-style: none;
   }
 
+  .technologies__category-title {
+    margin-bottom: 15px;
+  }
+
   .technologies__category-item {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100px;
+    width: 150px;
+    padding: 10px;
   }
 
   .technologies__category-icon {

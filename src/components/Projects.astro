@@ -1,60 +1,62 @@
-<section class="projects container">
-  <h2 class="page-title">Projects</h2>
+<section class="projects" id="projects">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
 
-  <div class="projects__container">
-    <div class="projects__card">
-      <div class="projects__card-photo">
-        <img src="/project-wildrift.png" alt="wildirft website" />
+    <div class="projects__container">
+      <div class="projects__card">
+        <div class="projects__card-photo">
+          <img src="/project-wildrift.png" alt="wildirft website" />
+        </div>
+        <div class="projects__card-title">WildriftGuides</div>
+        <div class="projects__card-description">
+          Website about wildrift builds
+        </div>
+        <div class="projects__card-buttons">
+          <a class="btn btn-github">Demo</a>
+          <a class="btn btn-demo">Github</a>
+        </div>
       </div>
-      <div class="projects__card-title">WildriftGuides</div>
-      <div class="projects__card-description">
-        Website about wildrift builds
-      </div>
-      <div class="projects__card-buttons">
-        <a class="btn btn-github">Live Demo</a>
-        <a class="btn btn-demo">Github</a>
-      </div>
-    </div>
 
-    <div class="projects__card">
-      <div class="projects__card-photo">
-        <img src="/project-wildrift.png" alt="wildirft website" />
+      <div class="projects__card">
+        <div class="projects__card-photo">
+          <img src="/project-wildrift.png" alt="wildirft website" />
+        </div>
+        <div class="projects__card-title">Terminal Portfolio</div>
+        <div class="projects__card-description">
+          Website about wildrift builds
+        </div>
+        <div class="projects__card-buttons">
+          <a class="btn btn-github">Demo</a>
+          <a class="btn btn-demo">Github</a>
+        </div>
       </div>
-      <div class="projects__card-title">WildriftGuides</div>
-      <div class="projects__card-description">
-        Website about wildrift builds
-      </div>
-      <div class="projects__card-buttons">
-        <a class="btn btn-github">Live Demo</a>
-        <a class="btn btn-demo">Github</a>
-      </div>
-    </div>
 
-    <div class="projects__card">
-      <div class="projects__card-photo">
-        <img src="/project-wildrift.png" alt="wildirft website" />
+      <div class="projects__card">
+        <div class="projects__card-photo">
+          <img src="/project-wildrift.png" alt="wildirft website" />
+        </div>
+        <div class="projects__card-title">WildriftGuides</div>
+        <div class="projects__card-description">
+          Website about wildrift builds
+        </div>
+        <div class="projects__card-buttons">
+          <a class="btn btn-github">Demo</a>
+          <a class="btn btn-demo">Github</a>
+        </div>
       </div>
-      <div class="projects__card-title">WildriftGuides</div>
-      <div class="projects__card-description">
-        Website about wildrift builds
-      </div>
-      <div class="projects__card-buttons">
-        <a class="btn btn-github">Live Demo</a>
-        <a class="btn btn-demo">Github</a>
-      </div>
-    </div>
 
-    <div class="projects__card">
-      <div class="projects__card-photo">
-        <img src="/project-wildrift.png" alt="wildirft website" />
-      </div>
-      <div class="projects__card-title">WildriftGuides</div>
-      <div class="projects__card-description">
-        Website about wildrift builds
-      </div>
-      <div class="projects__card-buttons">
-        <a class="btn btn-github">Live Demo</a>
-        <a class="btn btn-demo">Github</a>
+      <div class="projects__card">
+        <div class="projects__card-photo">
+          <img src="/project-wildrift.png" alt="wildirft website" />
+        </div>
+        <div class="projects__card-title">WildriftGuides</div>
+        <div class="projects__card-description">
+          Website about wildrift builds
+        </div>
+        <div class="projects__card-buttons">
+          <a class="btn btn-github">Demo</a>
+          <a class="btn btn-demo">Github</a>
+        </div>
       </div>
     </div>
   </div>
@@ -68,7 +70,6 @@
     }
 
     .projects__card {
-      border: 1px solid black;
       width: 45%;
       text-align: center;
       padding: 20px;
@@ -102,6 +103,28 @@
 
     .btn-github {
       background-color: red;
+    }
+
+    @media (max-width: 768px) {
+      .projects__card-title {
+        font-size: 1.2rem;
+      }
+
+      .projects__card-description {
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+      }
+
+      .projects__card-buttons {
+        display: flex;
+        gap: 1rem;
+      }
+
+      .btn {
+        padding: 8px 6px;
+        margin-top: 5px;
+        border-radius: 10px;
+      }
     }
   </style>
 </section>
