@@ -1,14 +1,19 @@
 <section class="hero container" id="home">
-  <div class="hero-text">
+  <div class="hero-text fade-in">
     <p>Hi</p>
-    <h1>I'm <span class="highlight">Marek</span><br />a Frontend Developer</h1>
-    <p class="description">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum
-      eum laudantium, unde voluptatem nemo non exercitationem neque ab delectus.
-    </p>
+    <h1>
+      I'm <span class="highlight">Marek Miskowiec</span> a<br />
+      Frontend Devloper.
+      <!-- <span id="typing-text"></span> -->
+    </h1>
+
     <div class="buttons">
-      <a href="#" class="btn black">Hire Me</a>
-      <a href="#" class="btn orange">Experience</a>
+      <a href="#" class="btn black">Download CV</a>
+      <a
+        href="https://github.com/marekmiskowiec"
+        target="_blank"
+        class="btn orange">Github</a
+      >
     </div>
   </div>
   <div class="hero-image">
@@ -16,7 +21,28 @@
   </div>
 </section>
 
+<script>
+  const text = "FRONTEND\n DEVELOPER.";
+  const speed = 100; // ms między literami
+  let index = 0;
+
+  function type() {
+    if (index < text.length) {
+      document.getElementById("typing-text").innerHTML += text.charAt(index);
+      index++;
+      setTimeout(type, speed);
+    }
+  }
+
+  type();
+</script>
+
 <style>
+  #typing-text {
+    font-size: 6rem;
+    color: black;
+  }
+
   .hero {
     display: flex;
     align-items: center;
@@ -35,7 +61,7 @@
   }
 
   .hero-text h1 {
-    font-size: 42px;
+    font-size: 62px;
     font-weight: bold;
     margin: 0 0 20px;
     line-height: 1.2;
@@ -43,12 +69,6 @@
 
   .hero-text .highlight {
     color: #f97316; /* orange */
-  }
-
-  .description {
-    color: #555;
-    font-size: 16px;
-    margin-bottom: 30px;
   }
 
   .buttons {
@@ -83,23 +103,27 @@
   }
 
   .hero-image img {
-    width: 400px;
-    height: 400px;
+    width: 550px;
+    height: 550px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    border: 4px solid white;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.55);
+    border: 6px solid rgb(11, 151, 198);
   }
 
   @media (max-width: 768px) {
     .hero {
       flex-direction: column;
+      padding: 10px;
     }
 
     .hero-image img {
       margin-top: 30px;
-      width: 300px;
-      height: 300px;
+      width: 350px;
+      height: 350px;
+    }
+    #typing-text {
+      font-size: 1.5rem;
     }
   }
 </style>

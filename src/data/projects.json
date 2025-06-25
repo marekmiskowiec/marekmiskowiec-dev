@@ -1,0 +1,38 @@
+[
+  {
+    "title": "WildriftGuides",
+    "image": "/projects/project-wildrift.png",
+    "description": [
+      "Wild Rift Guides website was created using Astro, web framework optimized for building fast, content-driven websites. All content like champion data, item builds, and runes is loaded from structured JSON files and rendered at build time. Styling is done with CSS and Tailwind CSS for a clean, responsive layout across devices. The site offers champion guides with skill orders, builds, and runes, plus tier lists and blog posts on game updates. Markdown is used for articles, and interactive features like video previews and filtering are powered by light JavaScript. It’s designed to be a fast, reliable resource for Wild Rift players."
+    ],
+    "demoUrl": "https://wr.marekmiskowiec.dev",
+    "githubUrl": "https://github.com/marekmiskowiec/wrbuilds"
+  },
+  {
+    "title": "Terminal Portfolio",
+    "image": "/projects/terminal.png",
+    "description": [
+      "A unique developer portfolio inspired by the macOS terminal, built with Astro and HTML/CSS. It offers a retro, command-line experience to showcase my projects, skills, and background in a fun and interactive way."
+    ],
+    "demoUrl": "https://terminal.marekmiskowiec.dev",
+    "githubUrl": "https://github.com/marekmiskowiec/terminal-portfolio"
+  },
+  {
+    "title": "Linktree clone",
+    "image": "/projects/linktree-clone.png",
+    "description": [
+      "A simple and responsive Linktree-style website built with Astro and HTML/CSS. It allows users to showcase their most important links in one clean, fast-loading page—perfect for social media bios or personal branding."
+    ],
+    "demoUrl": "https://linktree-portfolio-five.vercel.app/",
+    "githubUrl": "https://github.com/marekmiskowiec/terminal-portfolio"
+  },
+  {
+    "title": "Digital CV",
+    "image": "/projects/digital-cv.png",
+    "description": [
+      "A sleek and professional digital CV website created with Astro and HTML/CSS. It presents my skills, experience, and education in a clear, responsive layout—ideal for sharing with potential employers or clients."
+    ],
+    "demoUrl": "https://cv.marekmiskowiec.dev",
+    "githubUrl": "https://github.com/marekmiskowiec/digital-resume"
+  }
+]

@@ -9,7 +9,7 @@
       { "name": "TypeScript", "icon": "/icons/typescript.svg" },
       { "name": "React", "icon": "/icons/react.svg" },
       { "name": "Astro", "icon": "/icons/astro.svg" },
-      { "name": "NextJS", "icon": "/icons/astro.svg" }
+      { "name": "NextJS", "icon": "/icons/nextjs.svg" }
     ]
   },
   {
@@ -17,19 +17,24 @@
     "techs": [
       { "name": "Python", "icon": "/icons/python.svg" },
       { "name": "Django", "icon": "/icons/django.svg" },
-      { "name": "DRF", "icon": "/icons/drf.svg" },
-      { "name": "Celery", "icon": "/icons/django.svg" }
+      { "name": "DRF", "icon": "/icons/drf.svg" }
     ]
   },
   {
-    "title": "Tools",
+    "title": "Databases",
     "techs": [
-      { "name": "SASS", "icon": "/icons/sass.svg" },
-      { "name": "JavaScript", "icon": "/icons/javascript.svg" },
-      { "name": "TypeScript", "icon": "/icons/typescript.svg" },
-      { "name": "Python", "icon": "/icons/python.svg" },
-      { "name": "Django", "icon": "/icons/django.svg" },
-      { "name": "DRF", "icon": "/icons/drf.svg" }
+      { "name": "PostgreSQL", "icon": "/icons/postgresql.svg" },
+      { "name": "MySQL", "icon": "/icons/mysql.svg" },
+      { "name": "SQLite", "icon": "/icons/sqlite.svg" }
+    ]
+  },
+  {
+    "title": "Tools & Others",
+    "techs": [
+      { "name": "GIT", "icon": "/icons/git.svg" },
+      { "name": "Docker", "icon": "/icons/docker.svg" },
+      { "name": "AWS", "icon": "/icons/aws.svg" },
+      { "name": "GCP", "icon": "/icons/gcp.svg" }
     ]
   }
 ]

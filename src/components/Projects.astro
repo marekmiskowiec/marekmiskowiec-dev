@@ -1,67 +1,53 @@
+---
+import projects from "../data/projects.json";
+---
+
 <section class="projects" id="projects">
   <div class="container">
     <h2 class="section-title">Projects</h2>
 
     <div class="projects__container">
-      <div class="projects__card">
-        <div class="projects__card-photo">
-          <img src="/project-wildrift.png" alt="wildirft website" />
-        </div>
-        <div class="projects__card-title">WildriftGuides</div>
-        <div class="projects__card-description">
-          Website about wildrift builds
-        </div>
-        <div class="projects__card-buttons">
-          <a class="btn btn-github">Demo</a>
-          <a class="btn btn-demo">Github</a>
-        </div>
-      </div>
-
-      <div class="projects__card">
-        <div class="projects__card-photo">
-          <img src="/project-wildrift.png" alt="wildirft website" />
-        </div>
-        <div class="projects__card-title">Terminal Portfolio</div>
-        <div class="projects__card-description">
-          Website about wildrift builds
-        </div>
-        <div class="projects__card-buttons">
-          <a class="btn btn-github">Demo</a>
-          <a class="btn btn-demo">Github</a>
-        </div>
-      </div>
-
-      <div class="projects__card">
-        <div class="projects__card-photo">
-          <img src="/project-wildrift.png" alt="wildirft website" />
-        </div>
-        <div class="projects__card-title">WildriftGuides</div>
-        <div class="projects__card-description">
-          Website about wildrift builds
-        </div>
-        <div class="projects__card-buttons">
-          <a class="btn btn-github">Demo</a>
-          <a class="btn btn-demo">Github</a>
-        </div>
-      </div>
-
-      <div class="projects__card">
-        <div class="projects__card-photo">
-          <img src="/project-wildrift.png" alt="wildirft website" />
-        </div>
-        <div class="projects__card-title">WildriftGuides</div>
-        <div class="projects__card-description">
-          Website about wildrift builds
-        </div>
-        <div class="projects__card-buttons">
-          <a class="btn btn-github">Demo</a>
-          <a class="btn btn-demo">Github</a>
-        </div>
+      <div class="projects__container">
+        {
+          projects.map((project) => (
+            <div class="projects__card">
+              <div class="projects__card-photo fade-in">
+                <img src={project.image} alt={project.title} />
+              </div>
+              <div class="projects__card-title">{project.title}</div>
+              <div class="projects__card-description">
+                {project.description.map((para) => (
+                  <p style="margin-bottom: 20px;">{para}</p>
+                ))}
+              </div>
+              <div class="projects__card-buttons">
+                <a
+                  class="btn btn-github"
+                  href={project.demoUrl}
+                  target="_blank"
+                >
+                  Demo
+                </a>
+                <a
+                  class="btn btn-demo"
+                  href={project.githubUrl}
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </div>
+            </div>
+          ))
+        }
       </div>
     </div>
   </div>
 
   <style>
+    .projects__card-description p {
+      text-align: left;
+    }
+
     .projects__container {
       display: flex;
       justify-content: center;
@@ -73,39 +59,54 @@
       width: 45%;
       text-align: center;
       padding: 20px;
+      border: 5px solid rgb(11, 151, 198);
+      border-radius: 10px;
     }
 
     .projects__card-title {
       font-size: 2rem;
+      margin: 25px 0;
     }
 
     .projects__card-description {
-      font-size: 1rem;
+      font-size: 1.05rem;
+      line-height: 1.8;
       margin-bottom: 20px;
     }
 
     .projects__card-photo img {
       width: 100%;
+      height: auto;
     }
 
     .projects__card-buttons {
       margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
     }
 
     .btn {
       padding: 8px 16px;
       margin-top: 10px;
+      color: white;
+      border-radius: 5px;
+      box-shadow: 0 0 2px black;
     }
 
     .btn-demo {
-      background-color: green;
+      background-color: rgb(11, 151, 198);
     }
 
     .btn-github {
-      background-color: red;
+      background-color: rgb(11, 151, 198);
     }
 
     @media (max-width: 768px) {
+      .projects__card {
+        width: 100%;
+      }
+
       .projects__card-title {
         font-size: 1.2rem;
       }

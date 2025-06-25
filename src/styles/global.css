@@ -17,18 +17,20 @@ body {
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   text-decoration: underline rgb(11, 151, 198);
   text-underline-offset: 12px;
   text-decoration-thickness: 8px;
 }
 
 .section-subtitle {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  line-height: 1.6;
   color: #444;
   margin-bottom: 2rem;
+  text-align: left;
 }
 
 .container {
@@ -42,3 +44,27 @@ body {
     --clr-font: white;
     --clr-accent: rgb(255, 196, 0);
     "Roboto", sans-serif  */
+
+/* scrollabr */
+
+/* Cały scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Tło scrollbara */
+::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+/* Sam pasek przewijania */
+::-webkit-scrollbar-thumb {
+  background-color: #0b97c6; /* niebieski */
+  border-radius: 6px;
+  border: 3px solid #f0f0f0; /* odstęp wewnętrzny */
+}
+
+/* Po najechaniu */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #087fa8;
+}

@@ -1,0 +1,62 @@
+{
+  "experience": [
+    {
+      "role": "Export Compliance Analyst",
+      "year": "Oct 2024 - Present",
+      "description": "Responsible for ensuring product compliance with international export regulations."
+    },
+    {
+      "role": "Alert handler",
+      "year": "Jun 2023 - Aug 2023",
+      "description": "Assessing the legality of transactions and operations or financial solvency."
+    },
+    {
+      "role": "Junior KYC/AML Officer",
+      "year": "Oct 2022 - Apr 2023",
+      "description": "Cooperating with a Compliance team, Creating and maintaining KYC records by obtaining information from internal and external sources, Validating the information within KYC records and customer identification documents to ensure completion and accuracy, Ensuring KYC records incorporate local regulatory requirements / global standards."
+    },
+    {
+      "role": "KYC Analyst",
+      "company": "ING Bank Śląski S.A., Katowice",
+      "year": "Mar 2021 - Dec 2021",
+      "description": "Preparation, development, due diligence, and approval of the electronic Know Your Client (KYC) record (CDD&EDD) Cooperating with a Compliance team Creating and maintaining KYC records by obtaining information from internal and external sources Validating the information within KYC records and customer identification documents to ensure completion and accuracy Ensuring KYC records incorporate local regulatory requirements / global standards."
+    },
+    {
+      "role": "Alert Handler",
+      "company": "ING Bank Śląski S.A., Katowice",
+      "year": "Jun 2020 - Feb 2021",
+      "description": "Investigated activities of institutions to enforce laws and regulations, Assessing the legality of transactions and operations or financial solvency."
+    }
+  ],
+  "education": [
+    {
+      "role": "Back-end developer Python",
+      "institution": "Wyższa Szkoła Kształcenia Zawodowego",
+      "year": "2024 - present",
+      "description": "Specialization in Django"
+    },
+    {
+      "role": "Informatics and Econometrics",
+      "institution": "University Of Economics In Katowice",
+      "year": "2024 - present",
+      "description": "Specialization in Data Analysis"
+    }
+  ],
+  "courses": [
+    {
+      "role": "X",
+      "year": "2024",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum eum laudantium, unde voluptatem nemo non exercitationem neque ab delectus."
+    },
+    {
+      "role": "Y",
+      "year": "2024",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum eum laudantium, unde voluptatem nemo non exercitationem neque ab delectus."
+    },
+    {
+      "role": "Z",
+      "year": "2024",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum eum laudantium, unde voluptatem nemo non exercitationem neque ab delectus."
+    }
+  ]
+}

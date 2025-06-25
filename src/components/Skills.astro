@@ -11,18 +11,18 @@ import technologies from "../data/technologies.json";
 
   {
     technologies.map((technology) => (
-      <div class="technologies__category">
+      <div class="technologies__category ">
         <h2 class="technologies__category-title">{technology.title}</h2>
         <ul class="technologies__category-list">
           {technology.techs.map((tech) => (
-            <li class="technologies__category-item">
+            <li class="technologies__category-item fade-in">
               <img
                 src={tech.icon}
                 class="technologies__category-icon"
                 alt={tech.name}
                 loading="lazy"
               />
-              <span>{tech.name}</span>
+              <span class="technologies__category-name">{tech.name}</span>
             </li>
           ))}
         </ul>
@@ -32,6 +32,17 @@ import technologies from "../data/technologies.json";
 </section>
 
 <style>
+  .fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s ease-out;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
   .technologies {
     text-align: center;
   }
@@ -51,6 +62,7 @@ import technologies from "../data/technologies.json";
 
   .technologies__category-title {
     margin-bottom: 15px;
+    text-align: left;
   }
 
   .technologies__category-item {
@@ -63,5 +75,10 @@ import technologies from "../data/technologies.json";
 
   .technologies__category-icon {
     width: 100px;
+  }
+
+  .technologies__category-name {
+    margin-top: 15px;
+    font-size: 1.5rem;
   }
 </style>
