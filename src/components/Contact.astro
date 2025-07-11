@@ -5,7 +5,7 @@
       I'm currently open to new opportunities. Feel free to reach out using the
       form below or directly via email or LinkedIn.
     </p>
-
+    <!-- 
     <form class="contact-form" id="contact-form">
       <label for="name">Name</label>
       <input type="text" id="name" name="name" required />
@@ -17,9 +17,21 @@
       <textarea id="message" name="message" rows="5" required></textarea>
 
       <button type="submit">Send Message</button>
-      <p class="success-message" id="success-message">
-        Your message has been sent successfully!
-      </p>
+    </form> -->
+
+    <form
+      class="contact-form"
+      action="https://formspree.io/f/xyzjopqe"
+      method="POST"
+    >
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+      <label> Your email: </label>
+      <input type="email" name="email" required />
+      <label> Your message: </label>
+      <textarea name="message" rows="5" required></textarea>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
     </form>
 
     <div class="contact-info">
@@ -108,14 +120,6 @@
 
   .contact-form button:hover {
     background-color: #087fa8;
-  }
-
-  /* Success message */
-  .success-message {
-    color: green;
-    font-weight: bold;
-    display: none;
-    margin-top: 10px;
   }
 
   /* Contact info */

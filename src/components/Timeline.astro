@@ -18,6 +18,9 @@ import resume from "../data/resume.json";
               <div class="timeline__content-box">
                 <div class="timeline__content-box-date">{item.role}</div>
                 <h3 class="timeline__content-box-name">
+                  <i class="fa-solid fa-building" /> {item.company}
+                </h3>
+                <h3 class="timeline__content-box-name">
                   <i class="fa-solid fa-calendar" /> {item.year}
                 </h3>
                 <p class="timeline__content-box-description">
@@ -154,6 +157,10 @@ import resume from "../data/resume.json";
     font-size: 1.7rem;
     color: rgb(11, 151, 198);
     font-weight: 700;
+  }
+
+  .timeline__content-box-description {
+    line-height: 1.75;
   }
 
   @media (max-width: 768px) {

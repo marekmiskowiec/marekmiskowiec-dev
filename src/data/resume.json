@@ -2,61 +2,74 @@
   "experience": [
     {
       "role": "Export Compliance Analyst",
+      "company": "Honeywell",
       "year": "Oct 2024 - Present",
       "description": "Responsible for ensuring product compliance with international export regulations."
     },
     {
       "role": "Alert handler",
+      "company": "Bank Handlowy w Warszawie",
       "year": "Jun 2023 - Aug 2023",
       "description": "Assessing the legality of transactions and operations or financial solvency."
     },
     {
       "role": "Junior KYC/AML Officer",
+      "company": "SOCIETE GENERALE",
       "year": "Oct 2022 - Apr 2023",
-      "description": "Cooperating with a Compliance team, Creating and maintaining KYC records by obtaining information from internal and external sources, Validating the information within KYC records and customer identification documents to ensure completion and accuracy, Ensuring KYC records incorporate local regulatory requirements / global standards."
+      "description": "Collaborated with the Compliance team to create and maintain KYC records by gathering information from both internal and external sources. Validated customer identification documents and KYC data to ensure completeness and accuracy. Ensured all records met local regulatory requirements and adhered to global compliance standards."
     },
     {
       "role": "KYC Analyst",
-      "company": "ING Bank Śląski S.A., Katowice",
+      "company": "ING Bank Śląski",
       "year": "Mar 2021 - Dec 2021",
-      "description": "Preparation, development, due diligence, and approval of the electronic Know Your Client (KYC) record (CDD&EDD) Cooperating with a Compliance team Creating and maintaining KYC records by obtaining information from internal and external sources Validating the information within KYC records and customer identification documents to ensure completion and accuracy Ensuring KYC records incorporate local regulatory requirements / global standards."
+      "description": "Responsible for the preparation, development, and due diligence of electronic KYC records (CDD and EDD). Cooperated closely with the Compliance team to gather and validate customer information from internal and external sources. Ensured the completeness and accuracy of KYC records and customer identification documents. Maintained compliance with local regulatory requirements and global standards throughout the KYC process."
     },
     {
       "role": "Alert Handler",
-      "company": "ING Bank Śląski S.A., Katowice",
+      "company": "ING Bank Śląski",
       "year": "Jun 2020 - Feb 2021",
       "description": "Investigated activities of institutions to enforce laws and regulations, Assessing the legality of transactions and operations or financial solvency."
     }
   ],
   "education": [
     {
-      "role": "Back-end developer Python",
+      "role": "Back-end developer Python, Postgraduate Studies",
       "institution": "Wyższa Szkoła Kształcenia Zawodowego",
-      "year": "2024 - present",
+      "year": "Oct 2024 - Jul 2025",
       "description": "Specialization in Django"
     },
     {
-      "role": "Informatics and Econometrics",
+      "role": "Informatics and Econometrics, Bachelor Degree",
       "institution": "University Of Economics In Katowice",
-      "year": "2024 - present",
+      "year": "Oct 2018 - Sep 2023",
       "description": "Specialization in Data Analysis"
     }
   ],
   "courses": [
     {
-      "role": "X",
-      "year": "2024",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum eum laudantium, unde voluptatem nemo non exercitationem neque ab delectus."
+      "role": "Sanctions and Terrorism in Crypto",
+      "year": "Oct 2023",
+      "description": "A professional training focused on identifying and mitigating risks related to sanctions evasion and terrorist financing within the cryptocurrency sector. Covered regulatory challenges and practical compliance strategies."
     },
     {
-      "role": "Y",
-      "year": "2024",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum eum laudantium, unde voluptatem nemo non exercitationem neque ab delectus."
+      "role": "Kodilla FullStack Developer",
+      "year": "May 2022 - Apr 2023",
+      "description": "A comprehensive online bootcamp preparing students for a FullStack Developer role. The program included frontend technologies (HTML, CSS, JavaScript, React) and backend (Node.js, databases, REST API)."
     },
     {
-      "role": "Z",
-      "year": "2024",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolorum eum laudantium, unde voluptatem nemo non exercitationem neque ab delectus."
+      "role": "ING AI Academy Python",
+      "year": "Oct 2021",
+      "description": "A specialized course by ING covering the use of Python in artificial intelligence and machine learning. It included hands-on projects applying AI in real-world business contexts."
+    },
+    {
+      "role": "CodING Academy Python",
+      "year": "Apr 2021",
+      "description": "An intensive training program organized by ING, focused on learning Python and software engineering fundamentals. The course was project-based and included mentoring from industry professionals."
+    },
+    {
+      "role": "GIIF AML&TF (30836/2021/E)",
+      "year": "Feb 2021",
+      "description": "An official anti-money laundering and counter-terrorism financing course accredited by the Polish Financial Intelligence Unit (GIIF). Provided in-depth understanding of AML/CTF regulations and obligations for financial institutions."
     }
   ]
 }
