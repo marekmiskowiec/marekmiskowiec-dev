@@ -1,47 +1,78 @@
-# Astro Starter Kit: Minimal
+# Marek Miskowiec – Frontend Developer Portfolio
 
-```sh
-npm create astro@latest -- --template minimal
+This is a personal portfolio website for Marek Miskowiec, built with [Astro](https://astro.build/). It showcases my projects, skills, experience, and provides a way to contact me. The site is designed to be fast, modern, and fully responsive.
+
+## ✨ Features
+
+- **About Me**: Introduction and background
+- **Skills**: Technologies and tools I use (HTML, CSS, SASS, JavaScript, TypeScript, Astro)
+- **Projects**: Selected portfolio projects with descriptions, live demos, and GitHub links
+- **Resume**: Timeline of my experience, education, and courses
+- **Contact**: Contact form and direct contact information
+- **Responsive Design**: Works on all devices
+
+## 🛠️ Tech Stack
+
+- [Astro](https://astro.build/) (main framework)
+- HTML5, CSS3, SASS
+- JavaScript, TypeScript
+- JSON for data
+- Deployed with Vercel
+
+## 📁 Project Structure
+
 ```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
 /
-├── public/
+├── public/           # Static assets (images, icons, etc.)
 ├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+│   ├── components/   # Astro components (About, Projects, Skills, etc.)
+│   ├── data/         # JSON data (projects, resume, technologies)
+│   ├── layouts/      # Base layout
+│   ├── pages/        # Main page (index.astro)
+│   ├── scripts/      # JS scripts (contact form)
+│   └── styles/       # CSS styles
+├── package.json
+└── ...
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🚀 Getting Started
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+1. **Install dependencies**
+   ```sh
+   npm install
+   ```
+2. **Start the development server**
 
-Any static assets, like images, can be placed in the `public/` directory.
+   ```sh
+   npm run dev
+   ```
 
-## 🧞 Commands
+   The site will be available at `http://localhost:4321` by default.
 
-All commands are run from the root of the project, from a terminal:
+3. **Build for production**
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+   ```sh
+   npm run build
+   ```
 
-## 👀 Want to learn more?
+   The static site will be generated in the `dist/` folder.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+4. **Preview the production build**
+   ```sh
+   npm run preview
+   ```
+
+## 📄 Customization
+
+- Update your information in the JSON files in `src/data/` (projects, resume, technologies)
+- Edit or add components in `src/components/`
+- Adjust styles in `src/styles/`
+
+## 📬 Contact
+
+Feel free to reach out if you have questions or opportunities:
+
+- **Email**: marek.miskowiec@yahoo.com
+- **LinkedIn**: [linkedin.com/in/marek-miskowiec](https://www.linkedin.com/in/marek-miskowiec)
+
+---
