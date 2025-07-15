@@ -1,10 +1,13 @@
 <section class="hero container" id="home">
   <div class="hero-text">
-    <p>Hi</p>
+    <p class="hi">Hi, I'm</p>
     <h1>
-      I'm <span class="highlight">Marek Miskowiec</span> a<br />
-      Frontend Devloper.
-      <!-- <span id="typing-text"></span> -->
+      Marek Miskowiec
+      <div class="typewriter">
+        <div>
+          <p>FRONTEND DEVELOPER</p>
+        </div>
+      </div>
     </h1>
 
     <div class="buttons">
@@ -21,23 +24,45 @@
   </div>
 </section>
 
-<script>
-  const text = "FRONTEND\n DEVELOPER.";
-  const speed = 100; // ms między literami
-  let index = 0;
+<style>
+  .typewriter {
+    display: flex;
+  }
 
-  function type() {
-    if (index < text.length) {
-      document.getElementById("typing-text").innerHTML += text.charAt(index);
-      index++;
-      setTimeout(type, speed);
+  .typewriter p {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    /* margin-inline: auto; */
+    overflow: hidden;
+
+    /* Keeps on a single line */
+    white-space: nowrap;
+
+    /* The cursor */
+    border-right: 1px solid;
+
+    /* steps = number of characters */
+    animation:
+      typing 2.5s steps(22) forwards,
+      blink 1s step-end infinite;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 100%;
     }
   }
 
-  type();
-</script>
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
 
-<style>
   #typing-text {
     font-size: 6rem;
     color: black;
@@ -55,7 +80,7 @@
     max-width: 600px;
   }
 
-  .hero-text p {
+  .hero-text .hi {
     font-size: 20px;
     margin: 0 0 10px;
   }
@@ -67,7 +92,7 @@
     line-height: 1.2;
   }
 
-  .hero-text .highlight {
+  .hero-text .typewriter {
     color: #f97316; /* orange */
   }
 
@@ -112,9 +137,13 @@
   }
 
   @media (max-width: 768px) {
+    .typewriter p {
+      font-size: 2rem;
+    }
+
     .hero {
+      padding-top: 25px;
       flex-direction: column;
-      padding: 10px;
     }
 
     .hero-image img {

@@ -7,39 +7,29 @@ import projects from "../data/projects.json";
     <h2 class="section-title">Projects</h2>
 
     <div class="projects__container">
-      <div class="projects__container">
-        {
-          projects.map((project) => (
-            <div class="projects__card">
-              <div class="projects__card-photo">
-                <img src={project.image} alt={project.title} />
-              </div>
-              <div class="projects__card-title">{project.title}</div>
-              <div class="projects__card-description">
-                {project.description.map((para) => (
-                  <p style="margin-bottom: 20px;">{para}</p>
-                ))}
-              </div>
-              <div class="projects__card-buttons">
-                <a
-                  class="btn btn-github"
-                  href={project.demoUrl}
-                  target="_blank"
-                >
-                  Demo
-                </a>
-                <a
-                  class="btn btn-demo"
-                  href={project.githubUrl}
-                  target="_blank"
-                >
-                  Github
-                </a>
-              </div>
+      {
+        projects.map((project) => (
+          <div class="projects__card">
+            <div class="projects__card-photo">
+              <img src={project.image} alt={project.title} />
             </div>
-          ))
-        }
-      </div>
+            <div class="projects__card-title">{project.title}</div>
+            <div class="projects__card-description">
+              {project.description.map((para) => (
+                <p style="margin-bottom: 20px;">{para}</p>
+              ))}
+            </div>
+            <div class="projects__card-buttons">
+              <a class="btn btn-github" href={project.demoUrl} target="_blank">
+                Demo
+              </a>
+              <a class="btn btn-demo" href={project.githubUrl} target="_blank">
+                Github
+              </a>
+            </div>
+          </div>
+        ))
+      }
     </div>
   </div>
 
@@ -61,6 +51,9 @@ import projects from "../data/projects.json";
       padding: 20px;
       border: 5px solid rgb(11, 151, 198);
       border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      min-height: 600px;
     }
 
     .projects__card-title {
@@ -80,7 +73,7 @@ import projects from "../data/projects.json";
     }
 
     .projects__card-buttons {
-      margin-bottom: 20px;
+      margin-top: auto;
       display: flex;
       justify-content: center;
       gap: 20px;

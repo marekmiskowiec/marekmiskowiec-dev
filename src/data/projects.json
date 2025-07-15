@@ -10,7 +10,7 @@
   },
   {
     "title": "Terminal Portfolio",
-    "image": "/projects/terminal.png",
+    "image": "/projects/project-wildrift.png",
     "description": [
       "A unique developer portfolio inspired by the macOS terminal, built with Astro and HTML/CSS. It offers a retro, command-line experience to showcase my projects, skills, and background in a fun and interactive way."
     ],
@@ -19,7 +19,7 @@
   },
   {
     "title": "Linktree clone",
-    "image": "/projects/linktree-clone.png",
+    "image": "/projects/project-wildrift.png",
     "description": [
       "A simple and responsive Linktree-style website built with Astro and HTML/CSS. It allows users to showcase their most important links in one clean, fast-loading page—perfect for social media bios or personal branding."
     ],
@@ -28,7 +28,7 @@
   },
   {
     "title": "Digital CV",
-    "image": "/projects/digital-cv.png",
+    "image": "/projects/project-wildrift.png",
     "description": [
       "A sleek and professional digital CV website created with Astro and HTML/CSS. It presents my skills, experience, and education in a clear, responsive layout—ideal for sharing with potential employers or clients."
     ],
