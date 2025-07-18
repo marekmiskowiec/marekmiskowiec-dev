@@ -1,4 +1,5 @@
 ---
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import "../styles/animations.css";
 ---
 
@@ -8,10 +9,7 @@ import "../styles/animations.css";
     <link rel="icon" type="image/svg+xml" href="/favicon-16x16.png" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <meta
-      name="description"
-      content="Marek Miskowiec - Frontend Developer specializing in React/Astro."
-    />
+    <meta name="description" content={SITE_DESCRIPTION} />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -19,7 +17,21 @@ import "../styles/animations.css";
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Marek Miskowiec - Frontend Developer</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.marekmiskowiec.dev" />
+    <meta property="og:title" content="Marek Miskowiec - Frontend Developer" />
+    <meta
+      property="og:description"
+      content="Marek Miskowiec - Frontend Developer specializing in React/Astro."
+    />
+    <meta
+      property="og:image"
+      content="https://www.marekmiskowiec.dev/hero.jpg"
+    />
+
+    <title>{SITE_TITLE}</title>
   </head>
   <body>
     <slot />
