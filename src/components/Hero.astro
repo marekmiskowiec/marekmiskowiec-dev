@@ -1,3 +1,8 @@
+---
+import { Image } from "astro:assets";
+import heroImage from "../images/hero.jpg";
+---
+
 <section class="hero container" id="home">
   <div class="hero-text">
     <p class="hi">Hi, I'm</p>
@@ -20,7 +25,8 @@
     </div>
   </div>
   <div class="hero-image">
-    <img src="hero.jpg" alt="Mark" />
+    <Image src={heroImage} alt="Hero Image" />
+    <!-- <img src="hero.jpg" alt="Mark" /> -->
   </div>
 </section>
 
