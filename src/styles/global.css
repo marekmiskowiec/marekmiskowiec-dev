@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+:root {
+  --clr-base: rgb(6, 133, 175);
+}
 
 *,
 *::before,
@@ -23,7 +27,7 @@ body {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 3rem;
-  text-decoration: underline rgb(11, 151, 198);
+  text-decoration: underline var(--clr-base);
   text-underline-offset: 20px;
   text-decoration-thickness: 8px;
 }
@@ -78,4 +82,12 @@ body {
   color: white;
   border-radius: 5px;
   box-shadow: 0 0 2px black;
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/webfonts/fa-solid-900.woff2") format("woff2");
 }
