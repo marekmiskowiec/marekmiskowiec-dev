@@ -26,6 +26,31 @@ import heroImage from "../images/hero.jpg";
   </div>
   <div class="hero-image">
     <img src="hero.webp" alt="Mark" fetchpriority="high" />
+    <picture>
+      <!-- Dla małych ekranów (np. telefonów) -->
+      <source
+        srcset="/hero-mobile.webp"
+        media="(max-width: 768px)"
+        type="image/webp"
+      />
+
+      <!-- Dla większych ekranów -->
+      <source
+        srcset="/hero.webp"
+        media="(min-width: 769px)"
+        type="image/webp"
+      />
+
+      <!-- Domyślny fallback (np. Safari bez WebP) -->
+      <img
+        src="/hero.webp"
+        alt="Mark"
+        fetchpriority="high"
+        width="1000"
+        height="600"
+        style="width: 100%; height: auto"
+      />
+    </picture>
   </div>
 </section>
 
