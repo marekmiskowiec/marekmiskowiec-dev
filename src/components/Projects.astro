@@ -11,7 +11,20 @@ import projects from "../data/projects.json";
         projects.map((project) => (
           <div class="projects__card">
             <div class="projects__card-photo">
-              <img src={project.image} alt="" />
+              {/* <img src={project.image} alt="" /> */}
+              <picture>
+                <source
+                  srcset={project.image_mobile}
+                  media="(max-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset={project.image}
+                  media="(min-width: 769px)"
+                  type="image/webp"
+                />
+                <img src={project.image} alt="" loading="lazy" />
+              </picture>
             </div>
             <div class="projects__card-title">{project.title}</div>
             <div class="projects__card-description">
@@ -68,6 +81,7 @@ import projects from "../data/projects.json";
     }
 
     .projects__card-photo img {
+      object-fit: cover;
       width: 100%;
       height: auto;
     }

@@ -2,6 +2,7 @@
   {
     "title": "Wildrift Guides",
     "image": "/projects/wrbuilds.webp",
+    "image_mobile": "/projects/wrbuilds-mobile.webp",
     "description": [
       "Wild Rift Guides website was created using Astro, web framework optimized for building fast, content-driven websites. All content like champion data, item builds, and runes is loaded from structured JSON files and rendered at build time. Styling is done with CSS and Tailwind CSS for a clean, responsive layout across devices. The site offers champion guides with skill orders, builds, and runes, plus tier lists and blog posts on game updates. Markdown is used for articles, and interactive features like video previews and filtering are powered by light JavaScript. It’s designed to be a fast, reliable resource for Wild Rift players."
     ],
@@ -11,6 +12,7 @@
   {
     "title": "Terminal Portfolio",
     "image": "/projects/terminal.webp",
+    "image_mobile": "/projects/terminal-mobile.webp",
     "description": [
       "A unique developer portfolio inspired by the macOS terminal, built with Astro and HTML/CSS. It offers a retro, command-line experience to showcase my projects, skills, and background in a fun and interactive way."
     ],
@@ -20,6 +22,7 @@
   {
     "title": "Linktree clone",
     "image": "/projects/linktree.webp",
+    "image_mobile": "/projects/linktree-mobile.webp",
     "description": [
       "A simple and responsive Linktree-style website built with Astro and HTML/CSS. It allows users to showcase their most important links in one clean, fast-loading page—perfect for social media bios or personal branding."
     ],
@@ -29,6 +32,7 @@
   {
     "title": "Digital Resume",
     "image": "/projects/resume.webp",
+    "image_mobile": "/projects/resume-mobile.webp",
     "description": [
       "A sleek and professional digital CV website created with Astro and HTML/CSS. It presents my skills, experience, and education in a clear, responsive layout—ideal for sharing with potential employers or clients."
     ],
