@@ -10,7 +10,13 @@ import "../styles/animations.css";
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={SITE_DESCRIPTION} />
-    <link rel="stylesheet" href="/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="/css/all.min.css"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript><link rel="stylesheet" href="/css/all.min.css" /></noscript>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
