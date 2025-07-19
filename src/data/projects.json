@@ -1,38 +1,48 @@
 [
   {
-    "title": "WildriftGuides",
-    "image": "/projects/project-wildrift.webp",
+    "title": "Wildrift Guides",
+    "image": "/projects/wrbuilds.webp",
     "description": [
       "Wild Rift Guides website was created using Astro, web framework optimized for building fast, content-driven websites. All content like champion data, item builds, and runes is loaded from structured JSON files and rendered at build time. Styling is done with CSS and Tailwind CSS for a clean, responsive layout across devices. The site offers champion guides with skill orders, builds, and runes, plus tier lists and blog posts on game updates. Markdown is used for articles, and interactive features like video previews and filtering are powered by light JavaScript. It’s designed to be a fast, reliable resource for Wild Rift players."
     ],
-    "demoUrl": "https://wr.marekmiskowiec.dev",
-    "githubUrl": "https://github.com/marekmiskowiec/wrbuilds"
+    "demoUrl": "https://wrbuilds.vercel.app/",
+    "githubUrl": "https://github.com/marekmiskowiec/wrbuilds/"
   },
   {
     "title": "Terminal Portfolio",
-    "image": "/projects/project-wildrift.webp",
+    "image": "/projects/terminal.webp",
     "description": [
       "A unique developer portfolio inspired by the macOS terminal, built with Astro and HTML/CSS. It offers a retro, command-line experience to showcase my projects, skills, and background in a fun and interactive way."
     ],
-    "demoUrl": "https://terminal.marekmiskowiec.dev",
-    "githubUrl": "https://github.com/marekmiskowiec/terminal-portfolio"
+    "demoUrl": "https://terminal-portfolio-blush-mu.vercel.app/",
+    "githubUrl": "https://github.com/marekmiskowiec/terminal-portfolio/"
   },
   {
     "title": "Linktree clone",
-    "image": "/projects/project-wildrift.webp",
+    "image": "/projects/linktree.webp",
     "description": [
       "A simple and responsive Linktree-style website built with Astro and HTML/CSS. It allows users to showcase their most important links in one clean, fast-loading page—perfect for social media bios or personal branding."
     ],
     "demoUrl": "https://linktree-portfolio-five.vercel.app/",
-    "githubUrl": "https://github.com/marekmiskowiec/terminal-portfolio"
+    "githubUrl": "https://github.com/marekmiskowiec/terminal-portfolio/"
   },
   {
-    "title": "Digital CV",
-    "image": "/projects/project-wildrift.webp",
+    "title": "Digital Resume",
+    "image": "/projects/resume.webp",
     "description": [
       "A sleek and professional digital CV website created with Astro and HTML/CSS. It presents my skills, experience, and education in a clear, responsive layout—ideal for sharing with potential employers or clients."
     ],
-    "demoUrl": "https://cv.marekmiskowiec.dev",
-    "githubUrl": "https://github.com/marekmiskowiec/digital-resume"
+    "demoUrl": "https://digital-resume-gamma.vercel.app/",
+    "githubUrl": "https://github.com/marekmiskowiec/digital-resume/"
+  },
+
+  {
+    "title": "Portfolio Website",
+    "image": "/projects/portfolio.webp",
+    "description": [
+      "The personal portfolio of Marek Miskowiec, a passionate Frontend Developer specializing in modern web technologies like Astro, Tailwind CSS, and JavaScript."
+    ],
+    "demoUrl": "https://marekmiskowiec.dev/",
+    "githubUrl": "https://github.com/marekmiskowiec/marekmiskowiec-dev/"
   }
 ]

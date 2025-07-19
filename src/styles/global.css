@@ -34,6 +34,7 @@ body {
   color: #444;
   margin-bottom: 2rem;
   text-align: left;
+  font-weight: 400;
 }
 
 .container {
@@ -69,4 +70,12 @@ body {
 /* Po najechaniu */
 ::-webkit-scrollbar-thumb:hover {
   background-color: #087fa8;
+}
+
+.btn {
+  padding: 8px 16px;
+  margin-top: 10px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 2px black;
 }
